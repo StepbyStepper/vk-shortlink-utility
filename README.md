@@ -16,7 +16,7 @@
 1. **Клонируйте репозиторий**:
 
    ```bash
-   git clone https://github.com/username/vk-shortlink-utility.git
+   git clone https://github.com/StepbyStepper/vk-shortlink-utility.git
    cd vk-shortlink-utility
    ```
 
