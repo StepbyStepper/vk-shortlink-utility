@@ -4,8 +4,6 @@ from urllib.parse import urlparse
 import os
 import argparse
 
-load_dotenv()
-
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="VK Shortlink Utility")
@@ -95,6 +93,8 @@ def is_shorten_link(token, url):
 
 
 if __name__ == "__main__":
+    load_dotenv()
+
     args = parse_arguments()
 
     vk_token = os.getenv("VK_ACCESS_TOKEN")
